@@ -6,7 +6,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM,Dense, Dropout, SpatialDropout1D
 from tensorflow.keras.layers import Embedding
 
-df = pd.read_csv("D:\sentiment-analysis-python-code\Tweets.csv")
+df = pd.read_csv(r"D:\sentiment-analysis-python-code\Tweets.csv")
 
 #df.head()
 #df.columns
